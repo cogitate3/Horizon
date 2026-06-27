@@ -160,10 +160,10 @@
       "reply_min_likes": 5
     },
     "openbb": {
-      "enabled": false,
-      "fetch_filings": false,
+      "enabled": true,
+      "fetch_filings": true,
       "filings_provider": "sec",
-      "watchlists": []
+      "watchlists": ["AAPL", "MSFT", "GOOGL", "NVDA", "TSLA"]
     },
     "ossinsight": {
       "enabled": false,
