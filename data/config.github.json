@@ -163,7 +163,14 @@
       "enabled": true,
       "fetch_filings": true,
       "filings_provider": "sec",
-      "watchlists": ["AAPL", "MSFT", "GOOGL", "NVDA", "TSLA"]
+      "watchlists": [
+        {
+          "name": "tech-majors",
+          "symbols": ["AAPL", "MSFT", "GOOGL", "NVDA", "TSLA"],
+          "enabled": true,
+          "provider": "yfinance"
+        }
+      ]
     },
     "ossinsight": {
       "enabled": false,
